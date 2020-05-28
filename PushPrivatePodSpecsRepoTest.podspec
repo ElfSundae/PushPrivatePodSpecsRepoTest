@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name        = 'PushPrivatePodSpecsRepoTest'
-  s.version     = '0.1.0'
+  s.version     = '0.1.2'
   s.license     = 'MIT'
   s.summary     = 'A CocoaPods demo project to test pushing podspec to a private specs repo via GitHub Actions.'
   s.homepage    = 'https://github.com/ElfSundae/PushPrivatePodSpecsRepoTest'
