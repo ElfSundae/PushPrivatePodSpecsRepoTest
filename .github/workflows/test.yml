@@ -8,6 +8,7 @@ jobs:
     steps:
       - uses: actions/checkout@v2
 
-      - run: |
-        pod --version
-        pod repo list
+      - name: Test
+        run: |
+          pod --version
+          pod repo list
