@@ -6,7 +6,7 @@ Pod::Spec.new do |s|
   s.homepage    = 'https://github.com/ElfSundae/PushPrivatePodSpecsRepoTest'
   s.authors     = { 'Elf Sundae' => 'https://0x123.com' }
   s.source      = { :git => 'https://github.com/ElfSundae/PushPrivatePodSpecsRepoTest.git', :tag => s.version }
-  s.ios.deployment_target = '8.0'
+  s.ios.deployment_target = '9.0'
   s.source_files = 'PushPrivatePodSpecsRepoTest.m'
 
   s.dependency 'NIMSDK_LITE', '~> 7.7.0'
