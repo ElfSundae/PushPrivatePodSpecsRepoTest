@@ -9,5 +9,5 @@ Pod::Spec.new do |s|
   s.ios.deployment_target = '8.0'
   s.source_files = 'PushPrivatePodSpecsRepoTest.m'
 
-  s.dependency 'NIMSDK_LITE'
+  s.dependency 'NIMSDK_LITE', '~> 7.7.0'
 end
