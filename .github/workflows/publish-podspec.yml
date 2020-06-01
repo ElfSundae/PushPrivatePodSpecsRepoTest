@@ -11,7 +11,7 @@ jobs:
     steps:
       - uses: actions/checkout@v2
 
-      - name: Publish Podspec
+      - name: Publish podspec
         run: |
           set -o pipefail
           git config --global user.name "github-actions[bot]"
