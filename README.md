@@ -1,2 +1,1 @@
-A CocoaPods demo project to test pushing podspec to a private specs repo via
-GitHub Actions.
+A demo project to test pushing CocoaPods podspec to a private specs repo via GitHub Actions.
