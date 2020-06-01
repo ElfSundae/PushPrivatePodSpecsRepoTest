@@ -11,7 +11,7 @@ jobs:
       - name: Test
         run: |
           pod --version
+          pod setup --verbose
           pod repo list
           pod repo add podspecs https://github.com/ElfSundae/CocoaPods-Specs.git
-          pod lib lint --verbose || true
-          pod repo list
+          pod repo push podspecs --use-json --local-only
